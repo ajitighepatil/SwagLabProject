@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [grouping]" guice-stage="DEVELOPMENT" >
+  <test thread-count="5" name="GroupingTest(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <exclude name="retesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.Inventory_page2Test">
+        <methods>
+          <include name="verifytshirtredpriceTest"/>
+          <include name="verifyonesiepriceTest"/>
+          <include name="verifybikeLightProductTest"/>
+          <include name="verifyonesie_textTest"/>
+          <include name="verifytshirtredTest"/>
+          <include name="verifycartCountTest"/>
+          <include name="verifyonesieTest"/>
+          <include name="verifyallitem_linkTest"/>
+          <include name="closeBrowser"/>
+          <include name="add6ProductsTest"/>
+          <include name="verifybackPackProductTest"/>
+          <include name="verifyfleecejacketprice"/>
+          <include name="verifybackPackProduct_textTest"/>
+          <include name="verifyabout_linkTest"/>
+          <include name="verifyfleecejacket_textTest"/>
+          <include name="verifyfleecejacketTest"/>
+          <include name="verifytshirtred_textTest"/>
+          <include name="setup"/>
+          <include name="verifybackPackProductpriceTest"/>
+          <include name="verifybolttshirtTest"/>
+        </methods>
+      </class> <!-- testcases.Inventory_page2Test -->
+    </classes>
+  </test> <!-- GroupingTest(failed) -->
+</suite> <!-- Failed suite [grouping] -->

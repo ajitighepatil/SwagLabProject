@@ -1,0 +1,2321 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 18 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-grouping" class="navigator-link">
+              <span class="suite-name border-failed">grouping</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-grouping" class="navigator-link ">
+                    <span>C:\jar files\Maven_automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-grouping" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-grouping" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-grouping" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-grouping" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-grouping" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-grouping" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">43 methods, 18 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-grouping" class="hide-methods failed suite-grouping"> (hide)</a> <!-- hide-methods failed suite-grouping -->
+                      <a href="#" panel-name="suite-grouping" class="show-methods failed suite-grouping"> (show)</a> <!-- show-methods failed suite-grouping -->
+                    </span>
+                    <div class="method-list-content failed suite-grouping">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="add6ProductsTest">add6ProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyabout_linkTest">verifyabout_linkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyallitem_linkTest">verifyallitem_linkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybackPackProductTest">verifybackPackProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybackPackProduct_textTest">verifybackPackProduct_textTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybackPackProductpriceTest">verifybackPackProductpriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybikeLightProductTest">verifybikeLightProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybolttshirtTest">verifybolttshirtTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifycartCountTest">verifycartCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfleecejacketTest">verifyfleecejacketTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfleecejacket_textTest">verifyfleecejacket_textTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfleecejacketprice">verifyfleecejacketprice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyonesieTest">verifyonesieTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyonesie_textTest">verifyonesie_textTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyonesiepriceTest">verifyonesiepriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifytshirtredTest">verifytshirtredTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifytshirtred_textTest">verifytshirtred_textTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifytshirtredpriceTest">verifytshirtredpriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-grouping -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-grouping" class="hide-methods passed suite-grouping"> (hide)</a> <!-- hide-methods passed suite-grouping -->
+                      <a href="#" panel-name="suite-grouping" class="show-methods passed suite-grouping"> (show)</a> <!-- show-methods passed suite-grouping -->
+                    </span>
+                    <div class="method-list-content passed suite-grouping">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyUrlofApplicationtest">verifyUrlofApplicationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybackPackProduct_imageTest">verifybackPackProduct_imageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybackPackProduct_removeTest">verifybackPackProduct_removeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybackpaktextTest">verifybackpaktextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybikeLightProduct_imageTest">verifybikeLightProduct_imageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybikeLightProduct_removeTest">verifybikeLightProduct_removeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybikeLightProduct_textTest">verifybikeLightProduct_textTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybikeLightProductpriceTest">verifybikeLightProductpriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybikeLightProducttextTest">verifybikeLightProducttextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybolttshirt_imageTest">verifybolttshirt_imageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybolttshirt_removeTest">verifybolttshirt_removeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybolttshirt_textTest">verifybolttshirt_textTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybolttshirtpriceTest">verifybolttshirtpriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifybolttshirttextTest">verifybolttshirttextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifydropDownTest">verifydropDownTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyemptyAddToCartTest">verifyemptyAddToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfacebooklogoTest">verifyfacebooklogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfleecejacket_imageTest">verifyfleecejacket_imageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfleecejackettextTest">verifyfleecejackettextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyfootertextTest">verifyfootertextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyonesie_imageTest">verifyonesie_imageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyonesie_removeTest">verifyonesie_removeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifyonesietextTest">verifyonesietextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifytshirtred_imageTest">verifytshirtred_imageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-grouping" title="testcases.Inventory_page2Test" class="method navigator-link" hash-for-method="verifytshirtredtextTest">verifytshirtredtextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-grouping -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-grouping" class="panel grouping">
+          <div class="suite-grouping-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.Inventory_page2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add6ProductsTest">
+                  </a> <!-- add6ProductsTest -->
+                  <span class="method-name">add6ProductsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [af2c6ce22b2910bce7a8a3b7c2c06e59, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51790}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51790/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af2c6ce22b2910bce7a8a3b7c2c06e59
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.add6Products(Inventory_page2.java:423)
+	at testcases.Inventory_page2Test.add6ProductsTest(Inventory_page2Test.java:526)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyabout_linkTest">
+                  </a> <!-- verifyabout_linkTest -->
+                  <span class="method-name">verifyabout_linkTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=120.0.2210.61)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cbe1f1b95039e7c8a9e0dad403dfa292, clickElement {id=0E2719AE2F0A7D2943E54BC07BE40E22_element_43}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51858}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51858/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (cbe1f1b95039e7c8a9e0dad403dfa292)] -&gt; xpath: //a[@id=&apos;about_sidebar_link&apos;]]
+Session ID: cbe1f1b95039e7c8a9e0dad403dfa292
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifyabout_link(Inventory_page2.java:122)
+	at testcases.Inventory_page2Test.verifyabout_linkTest(Inventory_page2Test.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyallitem_linkTest">
+                  </a> <!-- verifyallitem_linkTest -->
+                  <span class="method-name">verifyallitem_linkTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=120.0.2210.61)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [257507136f77c13544bcc3c179ab7e81, clickElement {id=A240FFB79AD67C3C364D7979762BAC92_element_43}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (257507136f77c13544bcc3c179ab7e81)] -&gt; xpath: //a[@id=&apos;inventory_sidebar_link&apos;]]
+Session ID: 257507136f77c13544bcc3c179ab7e81
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifyallitem_link(Inventory_page2.java:115)
+	at testcases.Inventory_page2Test.verifyallitem_linkTest(Inventory_page2Test.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybackPackProductTest">
+                  </a> <!-- verifybackPackProductTest -->
+                  <span class="method-name">verifybackPackProductTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6eb917ab6a7d44a90d172e4430064fa5, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52081}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52081/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eb917ab6a7d44a90d172e4430064fa5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifybackPackProduct(Inventory_page2.java:306)
+	at testcases.Inventory_page2Test.verifybackPackProductTest(Inventory_page2Test.java:365)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybackPackProduct_textTest">
+                  </a> <!-- verifybackPackProduct_textTest -->
+                  <span class="method-name">verifybackPackProduct_textTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&apos;t unravel.] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]
+	at testcases.Inventory_page2Test.verifybackPackProduct_textTest(Inventory_page2Test.java:248)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybackPackProductpriceTest">
+                  </a> <!-- verifybackPackProductpriceTest -->
+                  <span class="method-name">verifybackPackProductpriceTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$7.99] but found [$29.99]
+	at testcases.Inventory_page2Test.verifybackPackProductpriceTest(Inventory_page2Test.java:308)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybikeLightProductTest">
+                  </a> <!-- verifybikeLightProductTest -->
+                  <span class="method-name">verifybikeLightProductTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-bike-light&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [56252c442bf785574971a5afcc4c9984, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-bike-light&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52554}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52554/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56252c442bf785574971a5afcc4c9984
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifybikeLightProduct(Inventory_page2.java:313)
+	at testcases.Inventory_page2Test.verifybikeLightProductTest(Inventory_page2Test.java:373)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybolttshirtTest">
+                  </a> <!-- verifybolttshirtTest -->
+                  <span class="method-name">verifybolttshirtTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-bolt-t-shirt&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ca198881800c16fa9827c84ddcff29e0, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-bolt-t-shirt&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53152}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53152/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca198881800c16fa9827c84ddcff29e0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifybolttshirt(Inventory_page2.java:320)
+	at testcases.Inventory_page2Test.verifybolttshirtTest(Inventory_page2Test.java:381)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycartCountTest">
+                  </a> <!-- verifycartCountTest -->
+                  <span class="method-name">verifycartCountTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf5a8e0ba5c249682982b84d0aff9245, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-backpack&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53622}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53622/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf5a8e0ba5c249682982b84d0aff9245
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifycartCount(Inventory_page2.java:147)
+	at testcases.Inventory_page2Test.verifycartCountTest(Inventory_page2Test.java:117)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfleecejacketTest">
+                  </a> <!-- verifyfleecejacketTest -->
+                  <span class="method-name">verifyfleecejacketTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-fleece-jacket&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1778b8b1de496625d470f090cd884269, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-fleece-jacket&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53945}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53945/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1778b8b1de496625d470f090cd884269
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifyfleecejacket(Inventory_page2.java:327)
+	at testcases.Inventory_page2Test.verifyfleecejacketTest(Inventory_page2Test.java:389)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfleecejacket_textTest">
+                  </a> <!-- verifyfleecejacket_textTest -->
+                  <span class="method-name">verifyfleecejacket_textTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.] but found [It&apos;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.]
+	at testcases.Inventory_page2Test.verifyfleecejacket_textTest(Inventory_page2Test.java:278)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfleecejacketprice">
+                  </a> <!-- verifyfleecejacketprice -->
+                  <span class="method-name">verifyfleecejacketprice</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$15.99] but found [$49.99]
+	at testcases.Inventory_page2Test.verifyfleecejacketprice(Inventory_page2Test.java:338)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyonesieTest">
+                  </a> <!-- verifyonesieTest -->
+                  <span class="method-name">verifyonesieTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-sauce-labs-onesie&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [681784629efdc52bf638d07e0c5ad621, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-sauce-labs-onesie&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54511}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54511/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 681784629efdc52bf638d07e0c5ad621
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifyonesie(Inventory_page2.java:334)
+	at testcases.Inventory_page2Test.verifyonesieTest(Inventory_page2Test.java:397)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyonesie_textTest">
+                  </a> <!-- verifyonesie_textTest -->
+                  <span class="method-name">verifyonesie_textTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.] but found [Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won&apos;t unravel.]
+	at testcases.Inventory_page2Test.verifyonesie_textTest(Inventory_page2Test.java:288)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyonesiepriceTest">
+                  </a> <!-- verifyonesiepriceTest -->
+                  <span class="method-name">verifyonesiepriceTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$29.99] but found [$7.99]
+	at testcases.Inventory_page2Test.verifyonesiepriceTest(Inventory_page2Test.java:348)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytshirtredTest">
+                  </a> <!-- verifytshirtredTest -->
+                  <span class="method-name">verifytshirtredTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;add-to-cart-test.allthethings()-t-shirt-(red)&apos;]&quot;}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a7edfa2c3602f086e19d02c8bf968d3c, findElement {using=xpath, value=//button[@id=&apos;add-to-cart-test.allthethings()-t-shirt-(red)&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54931}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54931/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7edfa2c3602f086e19d02c8bf968d3c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at pages.Inventory_page2.verifytshirtred(Inventory_page2.java:341)
+	at testcases.Inventory_page2Test.verifytshirtredTest(Inventory_page2Test.java:405)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytshirtred_textTest">
+                  </a> <!-- verifytshirtred_textTest -->
+                  <span class="method-name">verifytshirtred_textTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [It&apos;s not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.] but found [This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.]
+	at testcases.Inventory_page2Test.verifytshirtred_textTest(Inventory_page2Test.java:298)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytshirtredpriceTest">
+                  </a> <!-- verifytshirtredpriceTest -->
+                  <span class="method-name">verifytshirtredpriceTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$49.99] but found [$15.99]
+	at testcases.Inventory_page2Test.verifytshirtredpriceTest(Inventory_page2Test.java:358)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-grouping-class-failed -->
+          <div class="suite-grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUrlofApplicationtest">
+                  </a> <!-- verifyUrlofApplicationtest -->
+                  <span class="method-name">verifyUrlofApplicationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-grouping-class-passed -->
+          <div class="suite-grouping-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Inventory_page2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybackPackProduct_imageTest">
+                  </a> <!-- verifybackPackProduct_imageTest -->
+                  <span class="method-name">verifybackPackProduct_imageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybackPackProduct_removeTest">
+                  </a> <!-- verifybackPackProduct_removeTest -->
+                  <span class="method-name">verifybackPackProduct_removeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybackpaktextTest">
+                  </a> <!-- verifybackpaktextTest -->
+                  <span class="method-name">verifybackpaktextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybikeLightProduct_imageTest">
+                  </a> <!-- verifybikeLightProduct_imageTest -->
+                  <span class="method-name">verifybikeLightProduct_imageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybikeLightProduct_removeTest">
+                  </a> <!-- verifybikeLightProduct_removeTest -->
+                  <span class="method-name">verifybikeLightProduct_removeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybikeLightProduct_textTest">
+                  </a> <!-- verifybikeLightProduct_textTest -->
+                  <span class="method-name">verifybikeLightProduct_textTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybikeLightProductpriceTest">
+                  </a> <!-- verifybikeLightProductpriceTest -->
+                  <span class="method-name">verifybikeLightProductpriceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybikeLightProducttextTest">
+                  </a> <!-- verifybikeLightProducttextTest -->
+                  <span class="method-name">verifybikeLightProducttextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybolttshirt_imageTest">
+                  </a> <!-- verifybolttshirt_imageTest -->
+                  <span class="method-name">verifybolttshirt_imageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybolttshirt_removeTest">
+                  </a> <!-- verifybolttshirt_removeTest -->
+                  <span class="method-name">verifybolttshirt_removeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybolttshirt_textTest">
+                  </a> <!-- verifybolttshirt_textTest -->
+                  <span class="method-name">verifybolttshirt_textTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybolttshirtpriceTest">
+                  </a> <!-- verifybolttshirtpriceTest -->
+                  <span class="method-name">verifybolttshirtpriceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybolttshirttextTest">
+                  </a> <!-- verifybolttshirttextTest -->
+                  <span class="method-name">verifybolttshirttextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifydropDownTest">
+                  </a> <!-- verifydropDownTest -->
+                  <span class="method-name">verifydropDownTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyemptyAddToCartTest">
+                  </a> <!-- verifyemptyAddToCartTest -->
+                  <span class="method-name">verifyemptyAddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfacebooklogoTest">
+                  </a> <!-- verifyfacebooklogoTest -->
+                  <span class="method-name">verifyfacebooklogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfleecejacket_imageTest">
+                  </a> <!-- verifyfleecejacket_imageTest -->
+                  <span class="method-name">verifyfleecejacket_imageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfleecejackettextTest">
+                  </a> <!-- verifyfleecejackettextTest -->
+                  <span class="method-name">verifyfleecejackettextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyfootertextTest">
+                  </a> <!-- verifyfootertextTest -->
+                  <span class="method-name">verifyfootertextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyonesie_imageTest">
+                  </a> <!-- verifyonesie_imageTest -->
+                  <span class="method-name">verifyonesie_imageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyonesie_removeTest">
+                  </a> <!-- verifyonesie_removeTest -->
+                  <span class="method-name">verifyonesie_removeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyonesietextTest">
+                  </a> <!-- verifyonesietextTest -->
+                  <span class="method-name">verifyonesietextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytshirtred_imageTest">
+                  </a> <!-- verifytshirtred_imageTest -->
+                  <span class="method-name">verifytshirtred_imageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytshirtredtextTest">
+                  </a> <!-- verifytshirtredtextTest -->
+                  <span class="method-name">verifytshirtredtextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-grouping-class-passed -->
+        </div> <!-- panel grouping -->
+        <div panel-name="test-xml-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\jar files\Maven_automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;grouping&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GroupingTest&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+        &lt;exclude name=&quot;retesting&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Inventory_page2Test&quot;/&gt;
+      &lt;class name=&quot;testcases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GroupingTest --&gt;
+&lt;/suite&gt; &lt;!-- grouping --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GroupingTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">add6ProductsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUrlofApplicationtest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProductTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProduct_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProduct_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProduct_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProductpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackpaktextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProductTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProduct_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProduct_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProduct_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProductpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProducttextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirtTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirt_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirt_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirt_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirtpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirttextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifycartCountTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifydropDownTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyemptyAddToCartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacketTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacket_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacket_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacketprice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejackettextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfootertextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesieTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesie_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesie_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesie_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesiepriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesietextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtredTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtred_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtred_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtredpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtredtextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">add6ProductsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyUrlofApplicationtest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyabout_linkTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyallitem_linkTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProductTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProduct_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProduct_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProduct_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackPackProductpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybackpaktextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProductTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProduct_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProduct_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProduct_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProductpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybikeLightProducttextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirtTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirt_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirt_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirt_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirtpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifybolttshirttextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifycartCountTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifydropDownTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyemptyAddToCartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfacebooklogoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacketTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacket_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacket_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejacketprice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfleecejackettextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyfootertextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesieTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesie_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesie_removeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesie_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesiepriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyonesietextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtredTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtred_imageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtred_textTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtredpriceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytshirtredtextTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_grouping');
+function tableData_grouping() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(43);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyabout_linkTest')
+data.setCell(0, 2, 'testcases.Inventory_page2Test')
+data.setCell(0, 3, 2462);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifytshirtredpriceTest')
+data.setCell(1, 2, 'testcases.Inventory_page2Test')
+data.setCell(1, 3, 570);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifybackPackProduct_textTest')
+data.setCell(2, 2, 'testcases.Inventory_page2Test')
+data.setCell(2, 3, 401);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyfleecejacket_textTest')
+data.setCell(3, 2, 'testcases.Inventory_page2Test')
+data.setCell(3, 3, 384);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'add6ProductsTest')
+data.setCell(4, 2, 'testcases.Inventory_page2Test')
+data.setCell(4, 3, 216);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyonesie_textTest')
+data.setCell(5, 2, 'testcases.Inventory_page2Test')
+data.setCell(5, 3, 200);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifybolttshirttextTest')
+data.setCell(6, 2, 'testcases.Inventory_page2Test')
+data.setCell(6, 3, 173);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifybackpaktextTest')
+data.setCell(7, 2, 'testcases.Inventory_page2Test')
+data.setCell(7, 3, 153);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifybackPackProductTest')
+data.setCell(8, 2, 'testcases.Inventory_page2Test')
+data.setCell(8, 3, 152);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifybolttshirt_textTest')
+data.setCell(9, 2, 'testcases.Inventory_page2Test')
+data.setCell(9, 3, 144);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyfleecejacketprice')
+data.setCell(10, 2, 'testcases.Inventory_page2Test')
+data.setCell(10, 3, 139);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifybikeLightProduct_textTest')
+data.setCell(11, 2, 'testcases.Inventory_page2Test')
+data.setCell(11, 3, 138);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyUrlofApplicationtest')
+data.setCell(12, 2, 'testcases.LoginPageTest')
+data.setCell(12, 3, 137);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifybolttshirtpriceTest')
+data.setCell(13, 2, 'testcases.Inventory_page2Test')
+data.setCell(13, 3, 135);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifybolttshirt_removeTest')
+data.setCell(14, 2, 'testcases.Inventory_page2Test')
+data.setCell(14, 3, 133);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyonesieTest')
+data.setCell(15, 2, 'testcases.Inventory_page2Test')
+data.setCell(15, 3, 133);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyonesie_removeTest')
+data.setCell(16, 2, 'testcases.Inventory_page2Test')
+data.setCell(16, 3, 132);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifytshirtred_textTest')
+data.setCell(17, 2, 'testcases.Inventory_page2Test')
+data.setCell(17, 3, 128);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifybackPackProduct_imageTest')
+data.setCell(18, 2, 'testcases.Inventory_page2Test')
+data.setCell(18, 3, 125);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifybackPackProductpriceTest')
+data.setCell(19, 2, 'testcases.Inventory_page2Test')
+data.setCell(19, 3, 121);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifybackPackProduct_removeTest')
+data.setCell(20, 2, 'testcases.Inventory_page2Test')
+data.setCell(20, 3, 119);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifybikeLightProduct_removeTest')
+data.setCell(21, 2, 'testcases.Inventory_page2Test')
+data.setCell(21, 3, 115);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyfleecejackettextTest')
+data.setCell(22, 2, 'testcases.Inventory_page2Test')
+data.setCell(22, 3, 115);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyonesietextTest')
+data.setCell(23, 2, 'testcases.Inventory_page2Test')
+data.setCell(23, 3, 111);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifybikeLightProducttextTest')
+data.setCell(24, 2, 'testcases.Inventory_page2Test')
+data.setCell(24, 3, 106);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyonesiepriceTest')
+data.setCell(25, 2, 'testcases.Inventory_page2Test')
+data.setCell(25, 3, 95);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifybikeLightProductpriceTest')
+data.setCell(26, 2, 'testcases.Inventory_page2Test')
+data.setCell(26, 3, 91);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifytshirtredtextTest')
+data.setCell(27, 2, 'testcases.Inventory_page2Test')
+data.setCell(27, 3, 73);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyonesie_imageTest')
+data.setCell(28, 2, 'testcases.Inventory_page2Test')
+data.setCell(28, 3, 64);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifytshirtred_imageTest')
+data.setCell(29, 2, 'testcases.Inventory_page2Test')
+data.setCell(29, 3, 63);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifybikeLightProduct_imageTest')
+data.setCell(30, 2, 'testcases.Inventory_page2Test')
+data.setCell(30, 3, 63);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyallitem_linkTest')
+data.setCell(31, 2, 'testcases.Inventory_page2Test')
+data.setCell(31, 3, 62);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifybolttshirt_imageTest')
+data.setCell(32, 2, 'testcases.Inventory_page2Test')
+data.setCell(32, 3, 61);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyfleecejacket_imageTest')
+data.setCell(33, 2, 'testcases.Inventory_page2Test')
+data.setCell(33, 3, 58);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyfootertextTest')
+data.setCell(34, 2, 'testcases.Inventory_page2Test')
+data.setCell(34, 3, 53);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyfacebooklogoTest')
+data.setCell(35, 2, 'testcases.Inventory_page2Test')
+data.setCell(35, 3, 51);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifydropDownTest')
+data.setCell(36, 2, 'testcases.Inventory_page2Test')
+data.setCell(36, 3, 49);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyemptyAddToCartTest')
+data.setCell(37, 2, 'testcases.Inventory_page2Test')
+data.setCell(37, 3, 45);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifycartCountTest')
+data.setCell(38, 2, 'testcases.Inventory_page2Test')
+data.setCell(38, 3, 20);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyfleecejacketTest')
+data.setCell(39, 2, 'testcases.Inventory_page2Test')
+data.setCell(39, 3, 19);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifybikeLightProductTest')
+data.setCell(40, 2, 'testcases.Inventory_page2Test')
+data.setCell(40, 3, 18);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifybolttshirtTest')
+data.setCell(41, 2, 'testcases.Inventory_page2Test')
+data.setCell(41, 3, 16);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifytshirtredTest')
+data.setCell(42, 2, 'testcases.Inventory_page2Test')
+data.setCell(42, 3, 15);
+window.suiteTableData['grouping']= { tableData: data, tableDiv: 'times-div-grouping'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-grouping">
+              </div> <!-- times-div-grouping -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for grouping</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyonesie_removeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of remove button5</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifytshirtredtextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test.allTheThings() T-Shirt (Red)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybikeLightProduct_textTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyonesietextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sauce Labs Onesie</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyemptyAddToCartTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of empty add to carttrue</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybolttshirt_removeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of remove button5</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifytshirtred_imageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of red shirt image =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifydropDownTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of dropdown listtrue</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybackpaktextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sauce Labs Backpack</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyonesie_imageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of onesie image =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyfleecejacket_imageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of jacket image =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyfootertextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of footer text =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybackPackProduct_imageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of backpack product image= true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybikeLightProduct_removeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of remove button5</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybolttshirt_imageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibilty of bolt t shirt image =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybackPackProduct_removeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of remove button5</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybolttshirttextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sauce Labs Bolt T-Shirt</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyfacebooklogoTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of facebook logo =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyfleecejackettextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sauce Labs Fleece Jacket</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybolttshirtpriceTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">$15.99</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybolttshirt_textTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybikeLightProduct_imageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">visibility of bike light product image =true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybikeLightProducttextTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Sauce Labs Bike Light</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifybikeLightProductpriceTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">$9.99</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginToApplicationtest</span>
+                <br/>
+                <span class="ignored-method-name">verifyTitleofApplicationtest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.Inventory_page2Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifylinkedinlogoTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyswaglabtextTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyproductsLableTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyfleecejacket_removeTest</span>
+                <br/>
+                <span class="ignored-method-name">verifylogout_linkTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyverifymenubuttonTest</span>
+                <br/>
+                <span class="ignored-method-name">verifytshirtred_removeTest</span>
+                <br/>
+                <span class="ignored-method-name">remove6ProductsTest</span>
+                <br/>
+                <span class="ignored-method-name">verifytwitterLogoTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyreset_linkTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-grouping" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Inventory_page2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add6ProductsTest</span>
+                <span class="method-start">68335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=add6ProductsTest status=FAILURE method=Inventory_page2Test.add6ProductsTest()[pri:0...)</span>
+                <span class="method-start">68564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">69618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyabout_linkTest</span>
+                <span class="method-start">92950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyabout_linkTest status=FAILURE method=Inventory_page2Test.verifyabout_linkTest...)</span>
+                <span class="method-start">95416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">96384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyallitem_linkTest</span>
+                <span class="method-start">118202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyallitem_linkTest status=FAILURE method=Inventory_page2Test.verifyallitem_link...)</span>
+                <span class="method-start">118268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">119256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifybackPackProductTest</span>
+                <span class="method-start">133027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybackPackProductTest status=FAILURE method=Inventory_page2Test.verifybackPackP...)</span>
+                <span class="method-start">133183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">134192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybackPackProduct_imageTest</span>
+                <span class="method-start">150437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybackPackProduct_imageTest status=SUCCESS method=Inventory_page2Test.verifybac...)</span>
+                <span class="method-start">150565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">151134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybackPackProduct_removeTest</span>
+                <span class="method-start">166171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybackPackProduct_removeTest status=SUCCESS method=Inventory_page2Test.verifyba...)</span>
+                <span class="method-start">166292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">166843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifybackPackProduct_textTest</span>
+                <span class="method-start">181702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybackPackProduct_textTest status=FAILURE method=Inventory_page2Test.verifyback...)</span>
+                <span class="method-start">182105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">182986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifybackPackProductpriceTest</span>
+                <span class="method-start">195030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybackPackProductpriceTest status=FAILURE method=Inventory_page2Test.verifyback...)</span>
+                <span class="method-start">195152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">195794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybackpaktextTest</span>
+                <span class="method-start">209181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybackpaktextTest status=SUCCESS method=Inventory_page2Test.verifybackpaktextTe...)</span>
+                <span class="method-start">209336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">209991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifybikeLightProductTest</span>
+                <span class="method-start">225278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybikeLightProductTest status=FAILURE method=Inventory_page2Test.verifybikeLigh...)</span>
+                <span class="method-start">225299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">226165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybikeLightProduct_imageTest</span>
+                <span class="method-start">242110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybikeLightProduct_imageTest status=SUCCESS method=Inventory_page2Test.verifybi...)</span>
+                <span class="method-start">242175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">242577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybikeLightProduct_removeTest</span>
+                <span class="method-start">259310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybikeLightProduct_removeTest status=SUCCESS method=Inventory_page2Test.verifyb...)</span>
+                <span class="method-start">259429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">259763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybikeLightProduct_textTest</span>
+                <span class="method-start">278973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybikeLightProduct_textTest status=SUCCESS method=Inventory_page2Test.verifybik...)</span>
+                <span class="method-start">279113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">279394 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybikeLightProductpriceTest</span>
+                <span class="method-start">300755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybikeLightProductpriceTest status=SUCCESS method=Inventory_page2Test.verifybik...)</span>
+                <span class="method-start">300847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">301089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybikeLightProducttextTest</span>
+                <span class="method-start">319061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybikeLightProducttextTest status=SUCCESS method=Inventory_page2Test.verifybike...)</span>
+                <span class="method-start">319169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">319473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifybolttshirtTest</span>
+                <span class="method-start">337453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybolttshirtTest status=FAILURE method=Inventory_page2Test.verifybolttshirtTest...)</span>
+                <span class="method-start">337471 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">338184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybolttshirt_imageTest</span>
+                <span class="method-start">354030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybolttshirt_imageTest status=SUCCESS method=Inventory_page2Test.verifybolttshi...)</span>
+                <span class="method-start">354093 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">354419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybolttshirt_removeTest</span>
+                <span class="method-start">369074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybolttshirt_removeTest status=SUCCESS method=Inventory_page2Test.verifybolttsh...)</span>
+                <span class="method-start">369208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">369533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybolttshirt_textTest</span>
+                <span class="method-start">383994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybolttshirt_textTest status=SUCCESS method=Inventory_page2Test.verifybolttshir...)</span>
+                <span class="method-start">384140 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">384566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybolttshirtpriceTest</span>
+                <span class="method-start">400560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybolttshirtpriceTest status=SUCCESS method=Inventory_page2Test.verifybolttshir...)</span>
+                <span class="method-start">400697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">401000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybolttshirttextTest</span>
+                <span class="method-start">413722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifybolttshirttextTest status=SUCCESS method=Inventory_page2Test.verifybolttshirt...)</span>
+                <span class="method-start">413897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">414244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifycartCountTest</span>
+                <span class="method-start">428536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifycartCountTest status=FAILURE method=Inventory_page2Test.verifycartCountTest()...)</span>
+                <span class="method-start">428559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">429311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifydropDownTest</span>
+                <span class="method-start">443099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifydropDownTest status=SUCCESS method=Inventory_page2Test.verifydropDownTest()[p...)</span>
+                <span class="method-start">443150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">443430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyemptyAddToCartTest</span>
+                <span class="method-start">462298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyemptyAddToCartTest status=SUCCESS method=Inventory_page2Test.verifyemptyAddTo...)</span>
+                <span class="method-start">462344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">462609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfacebooklogoTest</span>
+                <span class="method-start">480865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfacebooklogoTest status=SUCCESS method=Inventory_page2Test.verifyfacebooklogo...)</span>
+                <span class="method-start">480918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">481315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyfleecejacketTest</span>
+                <span class="method-start">501095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfleecejacketTest status=FAILURE method=Inventory_page2Test.verifyfleecejacket...)</span>
+                <span class="method-start">501116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">501783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfleecejacket_imageTest</span>
+                <span class="method-start">516949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfleecejacket_imageTest status=SUCCESS method=Inventory_page2Test.verifyfleece...)</span>
+                <span class="method-start">517008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">517340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyfleecejacket_textTest</span>
+                <span class="method-start">532751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfleecejacket_textTest status=FAILURE method=Inventory_page2Test.verifyfleecej...)</span>
+                <span class="method-start">533163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">533854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyfleecejacketprice</span>
+                <span class="method-start">548956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfleecejacketprice status=FAILURE method=Inventory_page2Test.verifyfleecejacke...)</span>
+                <span class="method-start">549099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">550404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfleecejackettextTest</span>
+                <span class="method-start">567719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfleecejackettextTest status=SUCCESS method=Inventory_page2Test.verifyfleeceja...)</span>
+                <span class="method-start">567835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">568264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyfootertextTest</span>
+                <span class="method-start">585293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyfootertextTest status=SUCCESS method=Inventory_page2Test.verifyfootertextTest...)</span>
+                <span class="method-start">585348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">585725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyonesieTest</span>
+                <span class="method-start">598458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyonesieTest status=FAILURE method=Inventory_page2Test.verifyonesieTest()[pri:0...)</span>
+                <span class="method-start">598595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">599254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyonesie_imageTest</span>
+                <span class="method-start">611486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyonesie_imageTest status=SUCCESS method=Inventory_page2Test.verifyonesie_image...)</span>
+                <span class="method-start">611551 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">612625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyonesie_removeTest</span>
+                <span class="method-start">624518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyonesie_removeTest status=SUCCESS method=Inventory_page2Test.verifyonesie_remo...)</span>
+                <span class="method-start">624651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">624919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyonesie_textTest</span>
+                <span class="method-start">640719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyonesie_textTest status=FAILURE method=Inventory_page2Test.verifyonesie_textTe...)</span>
+                <span class="method-start">640921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">641611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyonesiepriceTest</span>
+                <span class="method-start">658208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyonesiepriceTest status=FAILURE method=Inventory_page2Test.verifyonesiepriceTe...)</span>
+                <span class="method-start">658306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">659194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyonesietextTest</span>
+                <span class="method-start">676778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyonesietextTest status=SUCCESS method=Inventory_page2Test.verifyonesietextTest...)</span>
+                <span class="method-start">676890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">677623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifytshirtredTest</span>
+                <span class="method-start">689850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifytshirtredTest status=FAILURE method=Inventory_page2Test.verifytshirtredTest()...)</span>
+                <span class="method-start">689867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">690523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytshirtred_imageTest</span>
+                <span class="method-start">704022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifytshirtred_imageTest status=SUCCESS method=Inventory_page2Test.verifytshirtred...)</span>
+                <span class="method-start">704087 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">704612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifytshirtred_textTest</span>
+                <span class="method-start">724413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifytshirtred_textTest status=FAILURE method=Inventory_page2Test.verifytshirtred_...)</span>
+                <span class="method-start">724543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">725271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifytshirtredpriceTest</span>
+                <span class="method-start">740848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifytshirtredpriceTest status=FAILURE method=Inventory_page2Test.verifytshirtredp...)</span>
+                <span class="method-start">741419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">742328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifytshirtredtextTest</span>
+                <span class="method-start">757710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifytshirtredtextTest status=SUCCESS method=Inventory_page2Test.verifytshirtredte...)</span>
+                <span class="method-start">757784 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">758097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUrlofApplicationtest</span>
+                <span class="method-start">773543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=verifyUrlofApplicationtest status=SUCCESS method=LoginPageTest.verifyUrlofApplicati...)</span>
+                <span class="method-start">773681 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

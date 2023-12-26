@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="55" passed="25" failed="18" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[visibility of backpack product image= true]]>
+    </line>
+    <line>
+      <![CDATA[visibility of remove button5]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[visibility of bike light product image =true]]>
+    </line>
+    <line>
+      <![CDATA[visibility of remove button5]]>
+    </line>
+    <line>
+      <![CDATA[A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.]]>
+    </line>
+    <line>
+      <![CDATA[$9.99]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Bike Light]]>
+    </line>
+    <line>
+      <![CDATA[visibilty of bolt t shirt image =true]]>
+    </line>
+    <line>
+      <![CDATA[visibility of remove button5]]>
+    </line>
+    <line>
+      <![CDATA[Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.]]>
+    </line>
+    <line>
+      <![CDATA[$15.99]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Bolt T-Shirt]]>
+    </line>
+    <line>
+      <![CDATA[visibility of dropdown listtrue]]>
+    </line>
+    <line>
+      <![CDATA[visibility of empty add to carttrue]]>
+    </line>
+    <line>
+      <![CDATA[visibility of facebook logo =true]]>
+    </line>
+    <line>
+      <![CDATA[visibility of jacket image =true]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Fleece Jacket]]>
+    </line>
+    <line>
+      <![CDATA[visibility of footer text =true]]>
+    </line>
+    <line>
+      <![CDATA[visibility of onesie image =true]]>
+    </line>
+    <line>
+      <![CDATA[visibility of remove button5]]>
+    </line>
+    <line>
+      <![CDATA[Sauce Labs Onesie]]>
+    </line>
+    <line>
+      <![CDATA[visibility of red shirt image =true]]>
+    </line>
+    <line>
+      <![CDATA[Test.allTheThings() T-Shirt (Red)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-12T18:54:31 IST" name="grouping" finished-at="2023-12-12T19:07:26 IST" duration-ms="774333">
+    <groups>
+      <group name="regression">
+        <method signature="Inventory_page2Test.add6ProductsTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="add6ProductsTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProductTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProduct_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProduct_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProduct_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProductpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackpaktextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackpaktextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProductTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProduct_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProduct_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProduct_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProductpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProducttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProducttextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirtTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirtTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirt_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirt_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirt_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirt_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirt_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirt_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirtpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirtpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirttextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifycartCountTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifycartCountTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifydropDownTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifydropDownTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyemptyAddToCartTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyemptyAddToCartTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacketTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacketTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacket_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacket_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacket_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacket_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacketprice()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacketprice" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejackettextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejackettextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfootertextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfootertextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesieTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesieTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesie_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesie_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesie_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesie_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesie_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesie_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesiepriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesiepriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesietextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesietextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtredTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtredTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtred_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtred_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtred_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtred_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtredpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtredpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtredtextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtredtextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="LoginPageTest.verifyUrlofApplicationtest()[pri:0, instance:testcases.LoginPageTest@35841320]" name="verifyUrlofApplicationtest" class="testcases.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Inventory_page2Test.add6ProductsTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="add6ProductsTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyabout_linkTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyabout_linkTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyallitem_linkTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyallitem_linkTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProductTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProduct_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProduct_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProduct_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackPackProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackPackProductpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybackpaktextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybackpaktextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProductTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProduct_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProduct_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProduct_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProductpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybikeLightProducttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybikeLightProducttextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirtTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirtTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirt_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirt_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirt_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirt_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirt_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirt_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirtpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirtpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifybolttshirttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifybolttshirttextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifycartCountTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifycartCountTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifydropDownTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifydropDownTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyemptyAddToCartTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyemptyAddToCartTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfacebooklogoTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfacebooklogoTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacketTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacketTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacket_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacket_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacket_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacket_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejacketprice()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejacketprice" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfleecejackettextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfleecejackettextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyfootertextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyfootertextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesieTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesieTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesie_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesie_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesie_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesie_removeTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesie_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesie_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesiepriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesiepriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifyonesietextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifyonesietextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtredTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtredTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtred_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtred_imageTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtred_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtred_textTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtredpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtredpriceTest" class="testcases.Inventory_page2Test"/>
+        <method signature="Inventory_page2Test.verifytshirtredtextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" name="verifytshirtredtextTest" class="testcases.Inventory_page2Test"/>
+        <method signature="LoginPageTest.verifyUrlofApplicationtest()[pri:0, instance:testcases.LoginPageTest@35841320]" name="verifyUrlofApplicationtest" class="testcases.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-12T18:54:31 IST" name="GroupingTest" finished-at="2023-12-12T19:07:26 IST" duration-ms="774333">
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPageTest@35841320]" started-at="2023-12-12T19:07:09 IST" name="setup" finished-at="2023-12-12T19:07:25 IST" duration-ms="15446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUrlofApplicationtest()[pri:0, instance:testcases.LoginPageTest@35841320]" started-at="2023-12-12T19:07:25 IST" name="verifyUrlofApplicationtest" finished-at="2023-12-12T19:07:25 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlofApplicationtest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@35841320]" started-at="2023-12-12T19:07:25 IST" name="closeBrowser" finished-at="2023-12-12T19:07:26 IST" duration-ms="552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlofApplicationtest status=SUCCESS method=LoginPageTest.verifyUrlofApplicationtest()[pri:0, instance:testcases.LoginPageTest@35841320] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginPageTest -->
+      <class name="testcases.Inventory_page2Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:54:31 IST" name="setup" finished-at="2023-12-12T18:55:40 IST" duration-ms="68333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="add6ProductsTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:55:40 IST" name="add6ProductsTest" finished-at="2023-12-12T18:55:40 IST" duration-ms="216" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [af2c6ce22b2910bce7a8a3b7c2c06e59, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51790}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51790/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af2c6ce22b2910bce7a8a3b7c2c06e59]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [af2c6ce22b2910bce7a8a3b7c2c06e59, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51790}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51790/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af2c6ce22b2910bce7a8a3b7c2c06e59
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.add6Products(Inventory_page2.java:423)
+at testcases.Inventory_page2Test.add6ProductsTest(Inventory_page2Test.java:526)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add6ProductsTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:55:40 IST" name="closeBrowser" finished-at="2023-12-12T18:55:41 IST" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add6ProductsTest status=FAILURE method=Inventory_page2Test.add6ProductsTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:55:41 IST" name="setup" finished-at="2023-12-12T18:56:04 IST" duration-ms="23332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyabout_linkTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:04 IST" name="verifyabout_linkTest" finished-at="2023-12-12T18:56:07 IST" duration-ms="2462" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=120.0.2210.61)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cbe1f1b95039e7c8a9e0dad403dfa292, clickElement {id=0E2719AE2F0A7D2943E54BC07BE40E22_element_43}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51858}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51858/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (cbe1f1b95039e7c8a9e0dad403dfa292)] -> xpath: //a[@id='about_sidebar_link']]
+Session ID: cbe1f1b95039e7c8a9e0dad403dfa292]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=120.0.2210.61)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cbe1f1b95039e7c8a9e0dad403dfa292, clickElement {id=0E2719AE2F0A7D2943E54BC07BE40E22_element_43}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51858}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51858/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (cbe1f1b95039e7c8a9e0dad403dfa292)] -> xpath: //a[@id='about_sidebar_link']]
+Session ID: cbe1f1b95039e7c8a9e0dad403dfa292
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifyabout_link(Inventory_page2.java:122)
+at testcases.Inventory_page2Test.verifyabout_linkTest(Inventory_page2Test.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyabout_linkTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:07 IST" name="closeBrowser" finished-at="2023-12-12T18:56:08 IST" duration-ms="965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyabout_linkTest status=FAILURE method=Inventory_page2Test.verifyabout_linkTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:08 IST" name="setup" finished-at="2023-12-12T18:56:30 IST" duration-ms="21817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyallitem_linkTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:30 IST" name="verifyallitem_linkTest" finished-at="2023-12-12T18:56:30 IST" duration-ms="62" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: MicrosoftEdge=120.0.2210.61)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [257507136f77c13544bcc3c179ab7e81, clickElement {id=A240FFB79AD67C3C364D7979762BAC92_element_43}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (257507136f77c13544bcc3c179ab7e81)] -> xpath: //a[@id='inventory_sidebar_link']]
+Session ID: 257507136f77c13544bcc3c179ab7e81]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=120.0.2210.61)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [257507136f77c13544bcc3c179ab7e81, clickElement {id=A240FFB79AD67C3C364D7979762BAC92_element_43}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on WINDOWS (257507136f77c13544bcc3c179ab7e81)] -> xpath: //a[@id='inventory_sidebar_link']]
+Session ID: 257507136f77c13544bcc3c179ab7e81
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifyallitem_link(Inventory_page2.java:115)
+at testcases.Inventory_page2Test.verifyallitem_linkTest(Inventory_page2Test.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyallitem_linkTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:30 IST" name="closeBrowser" finished-at="2023-12-12T18:56:31 IST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyallitem_linkTest status=FAILURE method=Inventory_page2Test.verifyallitem_linkTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:31 IST" name="setup" finished-at="2023-12-12T18:56:44 IST" duration-ms="13770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybackPackProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:44 IST" name="verifybackPackProductTest" finished-at="2023-12-12T18:56:45 IST" duration-ms="152" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6eb917ab6a7d44a90d172e4430064fa5, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52081}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52081/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eb917ab6a7d44a90d172e4430064fa5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6eb917ab6a7d44a90d172e4430064fa5, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52081}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52081/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eb917ab6a7d44a90d172e4430064fa5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifybackPackProduct(Inventory_page2.java:306)
+at testcases.Inventory_page2Test.verifybackPackProductTest(Inventory_page2Test.java:365)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybackPackProductTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:45 IST" name="closeBrowser" finished-at="2023-12-12T18:56:46 IST" duration-ms="1007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybackPackProductTest status=FAILURE method=Inventory_page2Test.verifybackPackProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:56:46 IST" name="setup" finished-at="2023-12-12T18:57:02 IST" duration-ms="16245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybackPackProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:02 IST" name="verifybackPackProduct_imageTest" finished-at="2023-12-12T18:57:02 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of backpack product image= true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybackPackProduct_imageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:02 IST" name="closeBrowser" finished-at="2023-12-12T18:57:03 IST" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybackPackProduct_imageTest status=SUCCESS method=Inventory_page2Test.verifybackPackProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of backpack product image= true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:03 IST" name="setup" finished-at="2023-12-12T18:57:18 IST" duration-ms="15037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybackPackProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:18 IST" name="verifybackPackProduct_removeTest" finished-at="2023-12-12T18:57:18 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of remove button5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybackPackProduct_removeTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:18 IST" name="closeBrowser" finished-at="2023-12-12T18:57:18 IST" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybackPackProduct_removeTest status=SUCCESS method=Inventory_page2Test.verifybackPackProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of remove button5]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:18 IST" name="setup" finished-at="2023-12-12T18:57:33 IST" duration-ms="14859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybackPackProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:33 IST" name="verifybackPackProduct_textTest" finished-at="2023-12-12T18:57:33 IST" duration-ms="401" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.] but found [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifybackPackProduct_textTest(Inventory_page2Test.java:248)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybackPackProduct_textTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:33 IST" name="closeBrowser" finished-at="2023-12-12T18:57:34 IST" duration-ms="880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybackPackProduct_textTest status=FAILURE method=Inventory_page2Test.verifybackPackProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:34 IST" name="setup" finished-at="2023-12-12T18:57:46 IST" duration-ms="12044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybackPackProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:46 IST" name="verifybackPackProductpriceTest" finished-at="2023-12-12T18:57:47 IST" duration-ms="121" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$7.99] but found [$29.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$7.99] but found [$29.99]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifybackPackProductpriceTest(Inventory_page2Test.java:308)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybackPackProductpriceTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:47 IST" name="closeBrowser" finished-at="2023-12-12T18:57:47 IST" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybackPackProductpriceTest status=FAILURE method=Inventory_page2Test.verifybackPackProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:57:47 IST" name="setup" finished-at="2023-12-12T18:58:01 IST" duration-ms="13387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybackpaktextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:01 IST" name="verifybackpaktextTest" finished-at="2023-12-12T18:58:01 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Backpack]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybackpaktextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:01 IST" name="closeBrowser" finished-at="2023-12-12T18:58:01 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybackpaktextTest status=SUCCESS method=Inventory_page2Test.verifybackpaktextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Sauce Labs Backpack]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:01 IST" name="setup" finished-at="2023-12-12T18:58:17 IST" duration-ms="15287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybikeLightProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:17 IST" name="verifybikeLightProductTest" finished-at="2023-12-12T18:58:17 IST" duration-ms="18" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-bike-light']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [56252c442bf785574971a5afcc4c9984, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-bike-light']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52554}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52554/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56252c442bf785574971a5afcc4c9984]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-bike-light']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [56252c442bf785574971a5afcc4c9984, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-bike-light']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52554}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52554/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56252c442bf785574971a5afcc4c9984
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifybikeLightProduct(Inventory_page2.java:313)
+at testcases.Inventory_page2Test.verifybikeLightProductTest(Inventory_page2Test.java:373)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybikeLightProductTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:17 IST" name="closeBrowser" finished-at="2023-12-12T18:58:18 IST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybikeLightProductTest status=FAILURE method=Inventory_page2Test.verifybikeLightProductTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:18 IST" name="setup" finished-at="2023-12-12T18:58:33 IST" duration-ms="15945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybikeLightProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:33 IST" name="verifybikeLightProduct_imageTest" finished-at="2023-12-12T18:58:34 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of bike light product image =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybikeLightProduct_imageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:34 IST" name="closeBrowser" finished-at="2023-12-12T18:58:34 IST" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybikeLightProduct_imageTest status=SUCCESS method=Inventory_page2Test.verifybikeLightProduct_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of bike light product image =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:34 IST" name="setup" finished-at="2023-12-12T18:58:51 IST" duration-ms="16732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybikeLightProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:51 IST" name="verifybikeLightProduct_removeTest" finished-at="2023-12-12T18:58:51 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of remove button5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybikeLightProduct_removeTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:51 IST" name="closeBrowser" finished-at="2023-12-12T18:58:51 IST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybikeLightProduct_removeTest status=SUCCESS method=Inventory_page2Test.verifybikeLightProduct_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of remove button5]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:58:51 IST" name="setup" finished-at="2023-12-12T18:59:10 IST" duration-ms="19210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybikeLightProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:10 IST" name="verifybikeLightProduct_textTest" finished-at="2023-12-12T18:59:10 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybikeLightProduct_textTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:10 IST" name="closeBrowser" finished-at="2023-12-12T18:59:11 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybikeLightProduct_textTest status=SUCCESS method=Inventory_page2Test.verifybikeLightProduct_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:11 IST" name="setup" finished-at="2023-12-12T18:59:32 IST" duration-ms="21361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybikeLightProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:32 IST" name="verifybikeLightProductpriceTest" finished-at="2023-12-12T18:59:32 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[$9.99]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybikeLightProductpriceTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:32 IST" name="closeBrowser" finished-at="2023-12-12T18:59:32 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybikeLightProductpriceTest status=SUCCESS method=Inventory_page2Test.verifybikeLightProductpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=$9.99]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:32 IST" name="setup" finished-at="2023-12-12T18:59:50 IST" duration-ms="17972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybikeLightProducttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:50 IST" name="verifybikeLightProducttextTest" finished-at="2023-12-12T18:59:51 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Bike Light]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybikeLightProducttextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:51 IST" name="closeBrowser" finished-at="2023-12-12T18:59:51 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybikeLightProducttextTest status=SUCCESS method=Inventory_page2Test.verifybikeLightProducttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Sauce Labs Bike Light]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T18:59:51 IST" name="setup" finished-at="2023-12-12T19:00:09 IST" duration-ms="17980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybolttshirtTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:09 IST" name="verifybolttshirtTest" finished-at="2023-12-12T19:00:09 IST" duration-ms="16" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ca198881800c16fa9827c84ddcff29e0, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53152}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53152/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca198881800c16fa9827c84ddcff29e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ca198881800c16fa9827c84ddcff29e0, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53152}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53152/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca198881800c16fa9827c84ddcff29e0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifybolttshirt(Inventory_page2.java:320)
+at testcases.Inventory_page2Test.verifybolttshirtTest(Inventory_page2Test.java:381)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybolttshirtTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:09 IST" name="closeBrowser" finished-at="2023-12-12T19:00:10 IST" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybolttshirtTest status=FAILURE method=Inventory_page2Test.verifybolttshirtTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:10 IST" name="setup" finished-at="2023-12-12T19:00:25 IST" duration-ms="15846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybolttshirt_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:25 IST" name="verifybolttshirt_imageTest" finished-at="2023-12-12T19:00:25 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibilty of bolt t shirt image =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybolttshirt_imageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:25 IST" name="closeBrowser" finished-at="2023-12-12T19:00:26 IST" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybolttshirt_imageTest status=SUCCESS method=Inventory_page2Test.verifybolttshirt_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibilty of bolt t shirt image =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:26 IST" name="setup" finished-at="2023-12-12T19:00:40 IST" duration-ms="14655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybolttshirt_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:40 IST" name="verifybolttshirt_removeTest" finished-at="2023-12-12T19:00:41 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of remove button5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybolttshirt_removeTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:41 IST" name="closeBrowser" finished-at="2023-12-12T19:00:41 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybolttshirt_removeTest status=SUCCESS method=Inventory_page2Test.verifybolttshirt_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of remove button5]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:41 IST" name="setup" finished-at="2023-12-12T19:00:55 IST" duration-ms="14461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybolttshirt_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:55 IST" name="verifybolttshirt_textTest" finished-at="2023-12-12T19:00:56 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybolttshirt_textTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:56 IST" name="closeBrowser" finished-at="2023-12-12T19:00:56 IST" duration-ms="424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybolttshirt_textTest status=SUCCESS method=Inventory_page2Test.verifybolttshirt_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:00:56 IST" name="setup" finished-at="2023-12-12T19:01:12 IST" duration-ms="15994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybolttshirtpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:12 IST" name="verifybolttshirtpriceTest" finished-at="2023-12-12T19:01:12 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[$15.99]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybolttshirtpriceTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:12 IST" name="closeBrowser" finished-at="2023-12-12T19:01:12 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybolttshirtpriceTest status=SUCCESS method=Inventory_page2Test.verifybolttshirtpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=$15.99]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:12 IST" name="setup" finished-at="2023-12-12T19:01:25 IST" duration-ms="12721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifybolttshirttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:25 IST" name="verifybolttshirttextTest" finished-at="2023-12-12T19:01:25 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Bolt T-Shirt]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifybolttshirttextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:25 IST" name="closeBrowser" finished-at="2023-12-12T19:01:26 IST" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybolttshirttextTest status=SUCCESS method=Inventory_page2Test.verifybolttshirttextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Sauce Labs Bolt T-Shirt]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:26 IST" name="setup" finished-at="2023-12-12T19:01:40 IST" duration-ms="14292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifycartCountTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:40 IST" name="verifycartCountTest" finished-at="2023-12-12T19:01:40 IST" duration-ms="20" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf5a8e0ba5c249682982b84d0aff9245, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53622}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53622/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf5a8e0ba5c249682982b84d0aff9245]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-backpack']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf5a8e0ba5c249682982b84d0aff9245, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-backpack']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53622}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53622/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf5a8e0ba5c249682982b84d0aff9245
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifycartCount(Inventory_page2.java:147)
+at testcases.Inventory_page2Test.verifycartCountTest(Inventory_page2Test.java:117)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycartCountTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:40 IST" name="closeBrowser" finished-at="2023-12-12T19:01:41 IST" duration-ms="751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycartCountTest status=FAILURE method=Inventory_page2Test.verifycartCountTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:41 IST" name="setup" finished-at="2023-12-12T19:01:54 IST" duration-ms="13788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifydropDownTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:54 IST" name="verifydropDownTest" finished-at="2023-12-12T19:01:55 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of dropdown listtrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifydropDownTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:55 IST" name="closeBrowser" finished-at="2023-12-12T19:01:55 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifydropDownTest status=SUCCESS method=Inventory_page2Test.verifydropDownTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of dropdown listtrue]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:01:55 IST" name="setup" finished-at="2023-12-12T19:02:14 IST" duration-ms="18868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyemptyAddToCartTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:14 IST" name="verifyemptyAddToCartTest" finished-at="2023-12-12T19:02:14 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of empty add to carttrue]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyemptyAddToCartTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:14 IST" name="closeBrowser" finished-at="2023-12-12T19:02:14 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyemptyAddToCartTest status=SUCCESS method=Inventory_page2Test.verifyemptyAddToCartTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of empty add to carttrue]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:14 IST" name="setup" finished-at="2023-12-12T19:02:32 IST" duration-ms="18256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfacebooklogoTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:32 IST" name="verifyfacebooklogoTest" finished-at="2023-12-12T19:02:32 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of facebook logo =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyfacebooklogoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:32 IST" name="closeBrowser" finished-at="2023-12-12T19:02:33 IST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfacebooklogoTest status=SUCCESS method=Inventory_page2Test.verifyfacebooklogoTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of facebook logo =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:33 IST" name="setup" finished-at="2023-12-12T19:02:52 IST" duration-ms="19780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfleecejacketTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:52 IST" name="verifyfleecejacketTest" finished-at="2023-12-12T19:02:52 IST" duration-ms="19" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-fleece-jacket']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1778b8b1de496625d470f090cd884269, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-fleece-jacket']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53945}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53945/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1778b8b1de496625d470f090cd884269]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-fleece-jacket']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [1778b8b1de496625d470f090cd884269, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-fleece-jacket']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53945}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53945/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1778b8b1de496625d470f090cd884269
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifyfleecejacket(Inventory_page2.java:327)
+at testcases.Inventory_page2Test.verifyfleecejacketTest(Inventory_page2Test.java:389)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfleecejacketTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:52 IST" name="closeBrowser" finished-at="2023-12-12T19:02:53 IST" duration-ms="666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfleecejacketTest status=FAILURE method=Inventory_page2Test.verifyfleecejacketTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:02:53 IST" name="setup" finished-at="2023-12-12T19:03:08 IST" duration-ms="15166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfleecejacket_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:08 IST" name="verifyfleecejacket_imageTest" finished-at="2023-12-12T19:03:08 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of jacket image =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyfleecejacket_imageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:08 IST" name="closeBrowser" finished-at="2023-12-12T19:03:09 IST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfleecejacket_imageTest status=SUCCESS method=Inventory_page2Test.verifyfleecejacket_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of jacket image =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:09 IST" name="setup" finished-at="2023-12-12T19:03:24 IST" duration-ms="15411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfleecejacket_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:24 IST" name="verifyfleecejacket_textTest" finished-at="2023-12-12T19:03:25 IST" duration-ms="384" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.] but found [It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.] but found [It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifyfleecejacket_textTest(Inventory_page2Test.java:278)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfleecejacket_textTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:25 IST" name="closeBrowser" finished-at="2023-12-12T19:03:25 IST" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfleecejacket_textTest status=FAILURE method=Inventory_page2Test.verifyfleecejacket_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:25 IST" name="setup" finished-at="2023-12-12T19:03:40 IST" duration-ms="15102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfleecejacketprice()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:40 IST" name="verifyfleecejacketprice" finished-at="2023-12-12T19:03:40 IST" duration-ms="139" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$15.99] but found [$49.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$15.99] but found [$49.99]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifyfleecejacketprice(Inventory_page2Test.java:338)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfleecejacketprice -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:40 IST" name="closeBrowser" finished-at="2023-12-12T19:03:42 IST" duration-ms="1304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfleecejacketprice status=FAILURE method=Inventory_page2Test.verifyfleecejacketprice()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:42 IST" name="setup" finished-at="2023-12-12T19:03:59 IST" duration-ms="17315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfleecejackettextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:59 IST" name="verifyfleecejackettextTest" finished-at="2023-12-12T19:03:59 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Fleece Jacket]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyfleecejackettextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:03:59 IST" name="closeBrowser" finished-at="2023-12-12T19:04:00 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfleecejackettextTest status=SUCCESS method=Inventory_page2Test.verifyfleecejackettextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Sauce Labs Fleece Jacket]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:00 IST" name="setup" finished-at="2023-12-12T19:04:17 IST" duration-ms="17028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfootertextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:17 IST" name="verifyfootertextTest" finished-at="2023-12-12T19:04:17 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of footer text =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyfootertextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:17 IST" name="closeBrowser" finished-at="2023-12-12T19:04:17 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfootertextTest status=SUCCESS method=Inventory_page2Test.verifyfootertextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of footer text =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:17 IST" name="setup" finished-at="2023-12-12T19:04:30 IST" duration-ms="12733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyonesieTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:30 IST" name="verifyonesieTest" finished-at="2023-12-12T19:04:30 IST" duration-ms="133" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-onesie']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [681784629efdc52bf638d07e0c5ad621, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-onesie']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54511}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54511/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 681784629efdc52bf638d07e0c5ad621]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-sauce-labs-onesie']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [681784629efdc52bf638d07e0c5ad621, findElement {using=xpath, value=//button[@id='add-to-cart-sauce-labs-onesie']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54511}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54511/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 681784629efdc52bf638d07e0c5ad621
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifyonesie(Inventory_page2.java:334)
+at testcases.Inventory_page2Test.verifyonesieTest(Inventory_page2Test.java:397)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyonesieTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:30 IST" name="closeBrowser" finished-at="2023-12-12T19:04:31 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyonesieTest status=FAILURE method=Inventory_page2Test.verifyonesieTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:31 IST" name="setup" finished-at="2023-12-12T19:04:43 IST" duration-ms="12232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyonesie_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:43 IST" name="verifyonesie_imageTest" finished-at="2023-12-12T19:04:43 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of onesie image =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyonesie_imageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:43 IST" name="closeBrowser" finished-at="2023-12-12T19:04:44 IST" duration-ms="1073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyonesie_imageTest status=SUCCESS method=Inventory_page2Test.verifyonesie_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of onesie image =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:44 IST" name="setup" finished-at="2023-12-12T19:04:56 IST" duration-ms="11893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyonesie_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:56 IST" name="verifyonesie_removeTest" finished-at="2023-12-12T19:04:56 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of remove button5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyonesie_removeTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:56 IST" name="closeBrowser" finished-at="2023-12-12T19:04:56 IST" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyonesie_removeTest status=SUCCESS method=Inventory_page2Test.verifyonesie_removeTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of remove button5]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:04:56 IST" name="setup" finished-at="2023-12-12T19:05:12 IST" duration-ms="15800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyonesie_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:12 IST" name="verifyonesie_textTest" finished-at="2023-12-12T19:05:12 IST" duration-ms="200" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.] but found [Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.] but found [Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifyonesie_textTest(Inventory_page2Test.java:288)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyonesie_textTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:12 IST" name="closeBrowser" finished-at="2023-12-12T19:05:13 IST" duration-ms="689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyonesie_textTest status=FAILURE method=Inventory_page2Test.verifyonesie_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:13 IST" name="setup" finished-at="2023-12-12T19:05:30 IST" duration-ms="16597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyonesiepriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:30 IST" name="verifyonesiepriceTest" finished-at="2023-12-12T19:05:30 IST" duration-ms="95" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$29.99] but found [$7.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$29.99] but found [$7.99]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifyonesiepriceTest(Inventory_page2Test.java:348)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyonesiepriceTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:30 IST" name="closeBrowser" finished-at="2023-12-12T19:05:31 IST" duration-ms="887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyonesiepriceTest status=FAILURE method=Inventory_page2Test.verifyonesiepriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:31 IST" name="setup" finished-at="2023-12-12T19:05:48 IST" duration-ms="17584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyonesietextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:48 IST" name="verifyonesietextTest" finished-at="2023-12-12T19:05:48 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sauce Labs Onesie]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyonesietextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:48 IST" name="closeBrowser" finished-at="2023-12-12T19:05:49 IST" duration-ms="731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyonesietextTest status=SUCCESS method=Inventory_page2Test.verifyonesietextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Sauce Labs Onesie]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:05:49 IST" name="setup" finished-at="2023-12-12T19:06:01 IST" duration-ms="12227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytshirtredTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:01 IST" name="verifytshirtredTest" finished-at="2023-12-12T19:06:01 IST" duration-ms="15" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a7edfa2c3602f086e19d02c8bf968d3c, findElement {using=xpath, value=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54931}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54931/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7edfa2c3602f086e19d02c8bf968d3c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']"}
+  (Session info: MicrosoftEdge=120.0.2210.61)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a7edfa2c3602f086e19d02c8bf968d3c, findElement {using=xpath, value=//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.61, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54931}, msedge: {msedgedriverVersion: 120.0.2210.61 (50ab4bd76cf1..., userDataDir: C:\Users\dell\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54931/devtoo..., se:cdpVersion: 120.0.2210.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7edfa2c3602f086e19d02c8bf968d3c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at pages.Inventory_page2.verifytshirtred(Inventory_page2.java:341)
+at testcases.Inventory_page2Test.verifytshirtredTest(Inventory_page2Test.java:405)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytshirtredTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:01 IST" name="closeBrowser" finished-at="2023-12-12T19:06:02 IST" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytshirtredTest status=FAILURE method=Inventory_page2Test.verifytshirtredTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:02 IST" name="setup" finished-at="2023-12-12T19:06:15 IST" duration-ms="13499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytshirtred_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:15 IST" name="verifytshirtred_imageTest" finished-at="2023-12-12T19:06:15 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visibility of red shirt image =true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifytshirtred_imageTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:15 IST" name="closeBrowser" finished-at="2023-12-12T19:06:16 IST" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytshirtred_imageTest status=SUCCESS method=Inventory_page2Test.verifytshirtred_imageTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=visibility of red shirt image =true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:16 IST" name="setup" finished-at="2023-12-12T19:06:36 IST" duration-ms="19800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytshirtred_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:36 IST" name="verifytshirtred_textTest" finished-at="2023-12-12T19:06:36 IST" duration-ms="128" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.] but found [This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.] but found [This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifytshirtred_textTest(Inventory_page2Test.java:298)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytshirtred_textTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:36 IST" name="closeBrowser" finished-at="2023-12-12T19:06:37 IST" duration-ms="727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytshirtred_textTest status=FAILURE method=Inventory_page2Test.verifytshirtred_textTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:37 IST" name="setup" finished-at="2023-12-12T19:06:52 IST" duration-ms="15576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytshirtredpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:52 IST" name="verifytshirtredpriceTest" finished-at="2023-12-12T19:06:53 IST" duration-ms="570" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$49.99] but found [$15.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$49.99] but found [$15.99]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.Inventory_page2Test.verifytshirtredpriceTest(Inventory_page2Test.java:358)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytshirtredpriceTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:53 IST" name="closeBrowser" finished-at="2023-12-12T19:06:54 IST" duration-ms="908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytshirtredpriceTest status=FAILURE method=Inventory_page2Test.verifytshirtredpriceTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:06:54 IST" name="setup" finished-at="2023-12-12T19:07:09 IST" duration-ms="15382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytshirtredtextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:07:09 IST" name="verifytshirtredtextTest" finished-at="2023-12-12T19:07:09 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test.allTheThings() T-Shirt (Red)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifytshirtredtextTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_page2Test@48bb62]" started-at="2023-12-12T19:07:09 IST" name="closeBrowser" finished-at="2023-12-12T19:07:09 IST" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytshirtredtextTest status=SUCCESS method=Inventory_page2Test.verifytshirtredtextTest()[pri:0, instance:testcases.Inventory_page2Test@48bb62] output=Test.allTheThings() T-Shirt (Red)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.Inventory_page2Test -->
+    </test> <!-- GroupingTest -->
+  </suite> <!-- grouping -->
+</testng-results>
